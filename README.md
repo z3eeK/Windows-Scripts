@@ -1,2 +1,2 @@
 # Windows-Scripts
-Useful Optimizational Scripts for Windows
+Useful Windows scripts for diagnostic, repair, optimizational and informative tasks.
