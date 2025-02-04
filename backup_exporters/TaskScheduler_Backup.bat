@@ -1,8 +1,11 @@
 @echo off
-set BACKUP_TASKS=C:\Backup_Tasks
-if not exist "%BACKUP_TASKS%" (
-md "%BACKUP_TASKS%"
+setlocal
+set BACKUP_DIR=C:\Backup_Tasks
+if not exist "%BACKUP_DIR%" (
+md "%BACKUP_DIR%"
 )
-copy /Y "C:\Windows\System32\Tasks" "%BACKUP_TASKS%"
-attrib -H -S "%BACKUP_TASKS%"
-attrib -H -S "%BACKUP_TASKS%\*.*" /S /D
+copy /Y "C:\Windows\System32\Tasks" "%BACKUP_DIR%"
+attrib -H -S "%BACKUP_DIR%"
+attrib -H -S "%BACKUP_DIR%\*.*" /S /D
+endlocal
+timeout 3
