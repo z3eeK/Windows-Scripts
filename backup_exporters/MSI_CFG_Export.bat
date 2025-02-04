@@ -1,19 +1,19 @@
 @echo off
 setlocal
-set MSI_CFG="C:\Backup_MSI_CFG"
-if exist "%MSI_CFG%" (
-echo Oups! The path C:\Backup_MSI_CFG already exists. Did you already run the exporter?
+set BACKUP_DIR="C:\Backup_MSI_CFG"
+if exist "%BACKUP_DIR%" (
+echo Oups! The path %BACKUP_DIR% already exists. Did you already run the exporter?
 pause
 goto END
 )
-mkdir "C:\Backup_MSI_CFG"
+mkdir "%BACKUP_DIR%"
 cd "C:\Program Files (x86)\MSI Afterburner\Profiles"
-copy /Y MSIAfterburner.cfg "C:\Backup_MSI_CFG"
-copy /Y Profile1.cfg "C:\Backup_MSI_CFG"
-copy /Y Profile2.cfg "C:\Backup_MSI_CFG"
-copy /Y Profile3.cfg "C:\Backup_MSI_CFG"
-copy /Y Profile4.cfg "C:\Backup_MSI_CFG"
-copy /Y Profile5.cfg "C:\Backup_MSI_CFG"
+copy /Y MSIAfterburner.cfg "%BACKUP_DIR%"
+copy /Y Profile1.cfg "%BACKUP_DIR%"
+copy /Y Profile2.cfg "%BACKUP_DIR%"
+copy /Y Profile3.cfg "%BACKUP_DIR%"
+copy /Y Profile4.cfg "%BACKUP_DIR%"
+copy /Y Profile5.cfg "%BACKUP_DIR%"
 :END
 endlocal
 timeout 3
