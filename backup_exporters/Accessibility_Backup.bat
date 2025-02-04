@@ -2,7 +2,7 @@
 setlocal
 set BACKUP_DIR="C:\Backup_Accessibility"
 if exist "%BACKUP_DIR%" (
-echo Oups! The path C:\Backup_Accessibility already exists. Maybe it is an old backup?
+echo Oups! The path %BACKUP_DIR% already exists. Maybe it is an old backup?
 pause
 goto END
 )
