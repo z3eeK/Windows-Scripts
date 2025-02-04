@@ -1,13 +1,13 @@
 @echo off
 setlocal
-set Mouse_Reg="C:\Backup_MouseReg"
-if exist "%Mouse_Reg%" (
-echo Oups! The path C:\Backup_MouseReg already exists. Maybe it is an old backup?
+set BACKUP_DIR="C:\Backup_MouseReg"
+if exist "%BACKUP_DIR%" (
+echo Oups! The path %BACKUP_DIR% already exists. Maybe it is an old backup?
 pause
 goto END
 )
-mkdir "C:\Backup_MouseReg"
-cd C:\Backup_MouseReg\
+mkdir "%BACKUP_DIR%"
+cd "%BACKUP_DIR%"
 reg export "HKEY_CURRENT_USER\Control Panel\Accessibility" MouseRegAcc.reg
 reg export "HKEY_CURRENT_USER\Control Panel\Mouse" MouseRegMouse.reg
 :END
