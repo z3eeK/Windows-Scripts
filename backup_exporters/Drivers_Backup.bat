@@ -1,3 +1,7 @@
-mkdir "C:\Backup_Drivers"
-DISM /online /export-driver "/destination:C:\Backup_Drivers"
-pause
+@echo off
+setlocal
+set BACKUP_DIR=C:\Backup_Drivers
+mkdir "%BACKUP_DIR%"
+DISM /online /export-driver "/destination:%BACKUP_DIR%"
+endlocal
+timeout 3
