@@ -11,7 +11,8 @@ echo Operation Complete
 goto :END
 :error
 echo Failed with error #%errorlevel%. Does the directory exist?
+pause
 echo Cleaning up...
 :END
 endlocal
-pause
+timeout 3
