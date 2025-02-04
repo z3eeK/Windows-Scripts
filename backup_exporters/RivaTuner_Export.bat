@@ -1,14 +1,14 @@
 @echo off
 setlocal
-set RivaTuner="C:\Backup_RivaTuner"
-if exist "%RivaTuner%" (
-echo Oups! The path C:\Backup_RivaTuner already exists. Did you already run the exporter?
+set BACKUP_DIR="C:\Backup_RivaTuner"
+if exist "%BACKUP_DIR%" (
+echo Oups! The path %BACKUP_DIR% already exists. Did you already run the exporter?
 pause
 goto END
 )
-mkdir "C:\Backup_RivaTuner"
+mkdir "%BACKUP_DIR%"
 cd "C:\Program Files (x86)\RivaTuner Statistics Server\Profiles"
-copy /Y * "C:\Backup_RivaTuner"
+copy /Y * "%BACKUP_DIR%"
 :END
 endlocal
 timeout 3
