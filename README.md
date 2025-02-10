@@ -2,7 +2,7 @@
 
 English | [Francais](./README-FR.md)
 
-# Windows Scripts
+# Windows Scripts [![GitHub License](https://img.shields.io/github/license/z3eek/Windows-Scripts)](LICENSE)
 
 A collection of scripts for Windows operating systems.
 
