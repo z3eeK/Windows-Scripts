@@ -4,9 +4,10 @@
 
 # Windows Scripts [![GitHub License](https://img.shields.io/github/license/z3eek/Windows-Scripts)](LICENSE)
 
-Une collection de scripte pour les systèmes opérateur de Windows. (En-cours)
+> [!NOTE] 
+> Utilisez seulment la [branche principale](https://github.com/z3eeK/Windows-Scripts/tree/main) si vous n'êtes pas familière avec l'art de scripte. 
 
-> Branche: Utilisez seulment la [branche principale](https://github.com/z3eeK/Windows-Scripts/tree/main) si vous n'êtes pas familière avec l'art de scripte. 
+Une collection de scripte pour les systèmes opérateur de Windows. ![Télécharger Ici]( https://github.com/z3eeK/Windows-Scripts/archive/refs/heads/main.zip)
 
 
 ## Directoire
