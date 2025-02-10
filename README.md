@@ -4,9 +4,10 @@ English | [Francais](./README-FR.md)
 
 # Windows Scripts [![GitHub License](https://img.shields.io/github/license/z3eek/Windows-Scripts)](LICENSE)
 
-A collection of scripts for Windows operating systems.
+> [!NOTE] 
+> Use [main branch](https://github.com/z3eeK/Windows-Scripts/tree/main) unless you are familiar with scripting.
 
-> Branch: Use [main branch](https://github.com/z3eeK/Windows-Scripts/tree/main) unless you are familiar with scripting.
+A collection of scripts for Windows operating systems.  ![Download Here]( https://github.com/z3eeK/Windows-Scripts/archive/refs/heads/main.zip)
 
 
 ## Directories
