@@ -11,11 +11,14 @@ A collection of scripts for Windows operating systems.  ![Download Here]( https:
 
 
 ## Directories
+> [!NOTE] 
+> Some scripts may require administrator priviledges.
 
-> Backup Exporters: A collection of backup scripts for facilitating formats and achieving machine environments.
+> **Backup Exporters:** A collection of backup scripts for facilitating formats and achieving machine environments.
 
-> Backup Importers: A collection of backup scripts for facilitating restoration of machine environments. Ensure all directories are placed in the directory: C:/
+> **Backup Importers:** A collection of backup scripts for facilitating restoration of machine environments. Ensure all directories are placed in the directory: C:/
 
+> **Optimizers:** A collection of maintanence scripts.
 
 ## Issues
 
