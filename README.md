@@ -2,14 +2,24 @@
 
 English | [Francais](./README-FR.md)
 
-# Windows Scripts
+# Windows Scripts [![GitHub License](https://img.shields.io/github/license/z3eek/Windows-Scripts)](LICENSE)
 
-A collection of scripts for Windows operating systems.
+> [!NOTE] 
+> Use [main branch](https://github.com/z3eeK/Windows-Scripts/tree/main) unless you are familiar with scripting.
 
-> Branch: Use [main branch](https://github.com/z3eeK/Windows-Scripts/tree/main) unless you are familiar with scripting.
+A collection of scripts for Windows operating systems.  ![Download Here]( https://github.com/z3eeK/Windows-Scripts/archive/refs/heads/main.zip)
+
 
 ## Directories
+> [!NOTE] 
+> Some scripts may require administrator priviledges.
 
-> Backup Exporters: A collection of backup scripts for facilitating formats and achieving machine environments.
+> **Backup Exporters:** A collection of backup scripts for facilitating formats and achieving machine environments.
 
-> Backup Importers: A collection of backup scripts for facilitating restoration of machine environments. Ensure all directories are placed in the directory: C:/
+> **Backup Importers:** A collection of backup scripts for facilitating restoration of machine environments. Ensure all directories are placed in the directory: C:/
+
+> **Optimizers:** A collection of maintanence scripts.
+
+## Issues
+
+[Report any issues here.](https://github.com/z3eeK/Windows-Scripts/issues)

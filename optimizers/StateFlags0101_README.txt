@@ -7,7 +7,6 @@
 ===================================================================
 
 
-
 	Instructions:
 ================================================================
   Notes:
@@ -20,7 +19,6 @@
 	1. Run StateFlags0101_setup.reg to setup preset.
 
 	2. Run StateFlags0101_run.bat run Disk Cleanup Presets.
-
 
 
 	Default Parameters for StateFlags0101
@@ -46,15 +44,3 @@ Enabled		2	Thumbnail Cache
 Enabled		2	User file versions
 Enabled		2	Windows Defender
 Enabled		2	Windows Error Reporting Files
-
-
-Parameters unchecked:
-
-
-
-- Setup log files
-- System Error Memory Dump Files
-- System Error Minidump Files
-- Branch Cache
-- Language Resource Files
-- Recycle Bin
