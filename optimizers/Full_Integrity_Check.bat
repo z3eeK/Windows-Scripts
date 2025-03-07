@@ -17,10 +17,10 @@ echo ...
 SET /P AREYOUSURE=Would you like to proceed [Y]es / [N]o?
 IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
 :CONTINUE
-#sfc /scannow
-#Dism /Online /Cleanup-Image /ScanHealth
-#Dism /Online /Cleanup-Image /CheckHealth
-#DISM /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
+Dism /Online /Cleanup-Image /ScanHealth
+Dism /Online /Cleanup-Image /CheckHealth
+DISM /Online /Cleanup-Image /RestoreHealth
 echo .
 echo ..
 echo ...
