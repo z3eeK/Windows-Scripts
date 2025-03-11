@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+; Windows_EPP_Mouse_Fix
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+
+"MouseSpeed"="0"
+"MouseThreshold1"="0"
+"MouseThreshold2"="0"
